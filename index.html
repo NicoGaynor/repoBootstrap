@@ -7,11 +7,11 @@
      <title>Verdulería Amanda</title>
          <!--CSS BOOTSTRAP LOCAL-->
      <link rel="stylesheet" href="./css/bootstrap.css">
-     <link rel="stylesheet" href="estilos.css">
+     <link rel="stylesheet" href="./estilos.css">
   </head>
   <body>
          <!--Navegador-->
-         <nav class="navbar navbar-expand-lg bg-verde">
+         <nav class="navbar navbar-expand-lg bg-verde menu">
              <div class="container-fluid">
                  <a class="navbar-brand" href="#">Amanda</a>
                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,6 +22,14 @@
                          <li class="nav-item">
                              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                          </li>
+                         <li class="nav-item dropdown">
+                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Frutas</a></li>
+                                <li><a class="dropdown-item" href="#">Verduras</a></li>
+                                <li><a class="dropdown-item" href="#">Almacén</a></li>
+                             </ul>
+                         </li>
                          <li class="nav-item">
                               <a class="nav-link" href="#">Nosotros</a>
                           </li>
@@ -30,14 +38,6 @@
                           </li>
                           <li class="nav-item">
                                <a class="nav-link" href="#">Preguntas frecuentes</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
-                              <ul class="dropdown-menu">
-                                 <li><a class="dropdown-item" href="#">Frutas</a></li>
-                                 <li><a class="dropdown-item" href="#">Verduras</a></li>
-                                 <li><a class="dropdown-item" href="#">Almacen</a></li>
-                             </ul>
                           </li>
                      </ul>
                  </div>
@@ -71,8 +71,8 @@
           <!--Carrusel-->
 
              <!--Contenido -->
-          <h1 class="text-center temporadaCitrico" >Temporada de cítricos</h1>
-          <div>
+          <h1 class="text-center temporadaCitrico  shadow-inset-center" >Temporada de cítricos</h1>
+          <div class="parrafo">
              <p>
                 No solo frío trae esta época del año: las naranjas y las mandarinas son unos de los alimentos estrella del invierno. Además de ser frutas deliciosas, proveen a quienes las consumen muchos beneficios para su salud. Los cítricos son una fuente de flavonoides, vitamina C, folatos y potasio, nutrientes que, en conjunto, preservan la salud cardiovascular, por eso, el invierno es una época perfecta para consumirlos al desayunar, después de las comidas principales o para ingerirlos entre horas.
              </p>
@@ -115,7 +115,7 @@
           <!--footer-->
           <div class="container">
              <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-               <div class="col-md-4 d-flex align-items-center">
+               <div class="col-md-4 d-flex align-items-center motorpsico">
                  <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                    <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
                  </a>
@@ -132,6 +132,6 @@
           <!--footer-->
 
 
-      <script src="./js/bootstrap.js"></script>
+      <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
