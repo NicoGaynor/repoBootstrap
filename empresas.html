@@ -7,11 +7,11 @@
      <title>Verdulería Amanda</title>
          <!--CSS BOOTSTRAP LOCAL-->
      <link rel="stylesheet" href="./css/bootstrap.css">
-     <link rel="stylesheet" href="estilos.css">
+     <link rel="stylesheet" href="./css_scss/destino.css">
   </head>
-  <body>
+  <body class="bg-verde">
          <!--Navegador-->
-         <nav class="navbar navbar-expand-lg bg-verde menu">
+         <nav class="navbar navbar-expand-lg  menu">
              <div class="container-fluid">
                  <a class="navbar-brand" href="#">Amanda</a>
                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,6 +22,14 @@
                          <li class="nav-item">
                              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                          </li>
+                         <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                             <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Frutas</a></li>
+                                <li><a class="dropdown-item" href="#">Verduras</a></li>
+                                <li><a class="dropdown-item" href="#">Almacen</a></li>
+                             </ul>
+                          </li>
                          <li class="nav-item">
                               <a class="nav-link" href="#">Nosotros</a>
                           </li>
@@ -30,14 +38,6 @@
                           </li>
                           <li class="nav-item">
                                <a class="nav-link" href="#">Preguntas frecuentes</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
-                              <ul class="dropdown-menu">
-                                 <li><a class="dropdown-item" href="#">Frutas</a></li>
-                                 <li><a class="dropdown-item" href="#">Verduras</a></li>
-                                 <li><a class="dropdown-item" href="#">Almacen</a></li>
-                             </ul>
                           </li>
                      </ul>
                  </div>
@@ -77,14 +77,16 @@
                 <div class="col">
                    <div class="parrafo text-start">
                       <h2 class="titulo1">Beneficios de consumir frutas a diario</h2>
-                         <li>Aportan gran cantidad de vitaminas y nutrientes esenciales</li>
-                         <li>Favorecen la digestión</li>
-                         <li>Gran contenido en agua</li>
-                         <li>Aportan pocas calorías</li>
-                         <li>Optimiza al metabolismo</li>
-                         <li>Contribuyen a una dieta equilibrada</li>
-                         <li>Aportan fibra, y son bajas en grasas</li>
-                         <li>Son antioxidantes naturales</li>
+                      <ul>
+                          <li>Aportan gran cantidad de vitaminas y nutrientes esenciales</li>
+                          <li>Favorecen la digestión</li>
+                          <li>Gran contenido en agua</li>
+                          <li>Aportan pocas calorías</li>
+                          <li>Optimiza al metabolismo</li>
+                          <li>Contribuyen a una dieta equilibrada</li>
+                          <li>Aportan fibra, y son bajas en grasas</li>
+                          <li>Son antioxidantes naturales</li>
+                       </ul>
                     </div>
                 </div>
                     <div class="col">
@@ -96,7 +98,7 @@
           <h2 class="font-monospace presupuesto text-center">¡SOLICITA UN PRESUPUESTO PARA TU EMPRESA!</h2>
     </div>
         <!--contenido-->
-
+        <hr>
 
         <!--footer -->
         <div class="container">
